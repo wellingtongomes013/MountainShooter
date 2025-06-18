@@ -19,8 +19,8 @@ class Menu:
 
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
-            self.menu_text(50, 'Mountain', COLOR_ORANGE, ((WIN_WIDTH / 2), 40))
-            self.menu_text(50, 'Shooter', COLOR_ORANGE, (WIN_WIDTH / 2, 80))
+            self.menu_text(50, 'Mountain', COLOR_WHITE, ((WIN_WIDTH / 2), 40))
+            self.menu_text(50, 'Shooter', COLOR_WHITE, (WIN_WIDTH / 2, 80))
 
             for i in range(len(MENU_OPTION)):
                 self.menu_text(30, MENU_OPTION[i], COLOR_WHITE, (WIN_WIDTH / 2, 150 + 35 * i))
